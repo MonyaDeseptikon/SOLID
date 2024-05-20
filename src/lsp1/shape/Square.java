@@ -2,8 +2,8 @@ package lsp1.shape;
 
 public class Square extends Rectangle {
 
-    public Square(int side) {
-        super(side, side);
+    public Square(int sideA) {
+        super(sideA, sideA);
     }
 
     @Override
