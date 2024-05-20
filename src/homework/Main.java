@@ -2,9 +2,9 @@ package homework;
 
 public class Main{
     public static void main(String[] args){
-        User user = new User("Bob");
+        User    user = new AndroidUser("Bob");
         user.report();
         user.save();
-
+        user.printName();
     }
 }
